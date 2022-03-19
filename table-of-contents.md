@@ -79,7 +79,9 @@ description: Wykład 15h
          1. Declare an array
          2. Declare associative array
          3. Array Operators [https://www.php.net/manual/en/language.operators.array.php](https://www.php.net/manual/en/language.operators.array.php)
-   6. Variables, constants and enums in php - code examples
+   6. Naming convention
+      1. Naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types, functions, and other entities in source code and documentation. [https://en.wikipedia.org/wiki/Naming\_convention\_(programming)](https://en.wikipedia.org/wiki/Naming\_convention\_\(programming\))
+   7. Variables, constants and enums in php - code examples
       1. Variable types
       2. Variable scope
       3. Variable casting
@@ -122,9 +124,39 @@ description: Wykład 15h
       6. Logical Operators [https://www.php.net/manual/en/language.operators.logical.php](https://www.php.net/manual/en/language.operators.logical.php)
       7. String Operators [https://www.php.net/manual/en/language.operators.string.ph](https://www.php.net/manual/en/language.operators.string.php)
 4. Functions
-   1. jak działają funkcje
-   2. jak importować funkcje, przestrzenie nazw, composer
-   3. jak tworzyć własne funkcje
+   1. Function - definition
+      1. Functions are "self contained" modules of code that accomplish a specific task. Functions usually "take in" data, process it, and "return" a result. Once a function is written, it can be used over and over and over again. Functions can be "called" from the inside of other functions. _Utah Univerity_ [_https://www.cs.utah.edu/\~germain/PPS/Topics/functions.html_](https://www.cs.utah.edu/\~germain/PPS/Topics/functions.html)__
+   2. Why do we write functions
+      1. They allow us to conceive of our program as a bunch of sub-steps. (Each sub-step can be its own function. When any program seems too hard, just break the overall program into sub-steps!)
+      2. They allow us to reuse code instead of rewriting it.
+      3. Functions allow us to keep our variable namespace clean (local variables only "live" as long as the function does). In other words, function\_1 can use a variable called i, and function\_2 can also use a variable called i and there is no confusion. Each variable i only exists when the computer is executing the given function.
+      4. Functions allow us to test small parts of our program in isolation from the rest. This is especially true in interpreted langaues, such as PHP
+   3. Namespaces
+      1. Namespace is a set of signs (names) that are used to identify and refer to objects of various kinds. A namespace ensures that all of a given set of objects have unique names so that they can be easily identified.
+      2. Using namespace we can keep our code clean and easy to use. For example, we can have a function with the same name, but using namespace, we can target specific one.   In that case it is better to have class for that, but even then we are using namespaces for class definitions.
+   4. Steps to Writing a Function
+      1. Understand the purpose of the function.&#x20;
+      2. Define the data that comes into the function from the caller (in the form of parameters)!&#x20;
+      3. Define what data variables are needed inside the function to accomplish its goal.&#x20;
+      4. Decide on the set of steps that the program will use to accomplish this goal. (The Algorithm)
+   5. Keeping functions clean
+      1. Find right name for your function
+      2. According to Single responsibility principle, make sure, that your function doing only one specific task
+      3. Try to keep maximum 3 arguments for a function. If it needs to have more data, try to close them in class instances, like Data Transfer Object or ValueObjects.
+      4. Function should always return the same type of value, or the same type of value with null allowed.
+   6. Recursion
+      1. Recursion is a process in which a function calls itself as a subroutine. This allows the function to be repeated several times, since it calls itself during its execution. Functions that incorporate recursion are called recursive functions.
+      2. Exit instuction - required to end program
+      3.
+   7. Functional programming - basics
+      1. Functional programming is a programming paradigm where programs are constructed by applying and composing functions.
+      2. In PHP Functional programming is not very popular concept, however using callables in frameworks like Laravel is quite often. Functional programming is more popular in JavaScript / TypeScript, especially in React
+      3. You can learn more about it from this video in polish [https://www.youtube.com/watch?v=kpsS47lNpmI](https://www.youtube.com/watch?v=kpsS47lNpmI) or from [https://www.youtube.com/watch?v=0if71HOyVjY](https://www.youtube.com/watch?v=0if71HOyVjY) but since it's introduction to programming, more informations you can find on programming paradigms lessons.
+   8. Anonymous function / arrow functions [https://en.wikipedia.org/wiki/Anonymous\_function](https://en.wikipedia.org/wiki/Anonymous\_function)
+      1. Anonymous function (function literal, lambda abstraction, lambda function, lambda expression or block) is a function definition that is not bound to an identifier.
+      2. It's not saved in memory, but stored inside variable
+   9. Code examples in PHP
+      1.
 5. Objects
    1. Type Operators[ ](https://www.php.net/manual/en/language.operators.type.php#language.operators.type)[https://www.php.net/manual/en/language.operators.type.php](https://www.php.net/manual/en/language.operators.type.php)
    2. Exeptions
