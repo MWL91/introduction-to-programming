@@ -1,4 +1,39 @@
+---
+description: Wykład 15h
+---
+
 # Właściwy sylabus
+
+1. Introduction to programming - basic informations
+   1. What is programming (definition)
+      1. The act or process of writing a program so that data may be processed by a computer. _Collins English Dictionary. Copyright © HarperCollins Publishers_
+      2. Computer programming is the process of performing a particular computation (or more generally, accomplishing a specific computing result), usually by designing/building an executable computer program. _Wikipedia_
+      3. _PDFs:_
+         1. __[_https://dl.acm.org/doi/pdf/10.1145/9758.10501_](https://dl.acm.org/doi/pdf/10.1145/9758.10501)__
+         2. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.58.1345\&rep=rep1\&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.58.1345\&rep=rep1\&type=pdf)
+   2. Why you should learn programming [https://www.youtube.com/watch?v=Dv7gLpW91DM](https://www.youtube.com/watch?v=Dv7gLpW91DM)
+   3. Programming as a instructions for computer
+      1. Programming is to giving computer right instructions required to accomplished a task.
+      2. Example with LEGO instructions (step by step what to do to achieve results)
+   4. Program environments
+      1. Client program
+      2. Container program
+      3. Server program
+      4. AWS Lambda and serverless
+   5. Programming IDEs (overview)
+      1. What is IDE
+      2. VSCode
+      3. JetBrains IDEs
+   6. Programming languages
+      1. Low level programming and assembly language example
+      2. High level programming and C# examples
+      3. Interpreted languages and PHP examples
+   7. The same program in other high-level languages
+      1. Python
+      2. JavaScript
+      3. PHP
+      4. C#
+      5. C++
 
 * Wiadomości wstępne
   * Czym jest programowanie
