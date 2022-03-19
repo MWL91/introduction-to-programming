@@ -12,28 +12,37 @@ description: Wykład 15h
          1. __[_https://dl.acm.org/doi/pdf/10.1145/9758.10501_](https://dl.acm.org/doi/pdf/10.1145/9758.10501)__
          2. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.58.1345\&rep=rep1\&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.58.1345\&rep=rep1\&type=pdf)
    2. Why you should learn programming [https://www.youtube.com/watch?v=Dv7gLpW91DM](https://www.youtube.com/watch?v=Dv7gLpW91DM)
-   3. Programming as a instructions for computer
+   3. historia rozwoju języków i technik programowania,&#x20;
+      1. Karty perforowane
+      2. COBOL
+      3. ciekawostki
+   4. Programming as a instructions for computer
       1. Programming is to giving computer right instructions required to accomplished a task.
       2. Example with LEGO instructions (step by step what to do to achieve results)
-   4. Program environments
+   5. Program environments
       1. Client program
       2. Container program
       3. Server program
       4. AWS Lambda and serverless
-   5. Programming IDEs (overview)
+   6. Programming IDEs (overview)
       1. What is IDE
       2. VSCode
       3. JetBrains IDEs
-   6. Programming languages
+   7. Pseudocode
+      1. Pseudocode is a plain language description of the steps in an algorithm or another system.
+      2. Writing example program in pseudocode: calculating shopping cart
+      3. Special variation of pseudocode: Gherkin Language and Domain Driven Development
+   8. Programming languages
       1. Low level programming and assembly language example
       2. High level programming and C# examples
       3. Interpreted languages and PHP examples
-   7. The same program in other high-level languages
+   9. The same program in other high-level languages
       1. Python
       2. JavaScript
       3. PHP
       4. C#
       5. C++
+   10. Definicje pojęć: translator, kompilator, interpreter, moduł programowy.
 2. What is a variable. Introduction to variables based on PHP
    1. Definition of variable
       1. A variable is a symbolic name for (or reference to) information. The variable's name represents what information the variable contains. They are called variables because the represented information can change but the operations on the variable remain the same. In general, a program should be written with "Symbolic" notation, such that a statement is always true symbolically. For example, if I want to know the average of two grades, We can write "average = (grade\_1 + grade\_2) / 2.0;" and the variable average will then contain the average grade regardless of the scores stored in the variables, grade\_1 and grade\_2. _Utah University_ [_https://www.cs.utah.edu/\~germain/PPS/Topics/index.html_](https://www.cs.utah.edu/\~germain/PPS/Topics/index.html)__
@@ -144,23 +153,51 @@ description: Wykład 15h
       2. According to Single responsibility principle, make sure, that your function doing only one specific task
       3. Try to keep maximum 3 arguments for a function. If it needs to have more data, try to close them in class instances, like Data Transfer Object or ValueObjects.
       4. Function should always return the same type of value, or the same type of value with null allowed.
-   6. Recursion
+   6. Anonymous function / arrow functions [https://en.wikipedia.org/wiki/Anonymous\_function](https://en.wikipedia.org/wiki/Anonymous\_function)
+      1. Anonymous function (function literal, lambda abstraction, lambda function, lambda expression or block) is a function definition that is not bound to an identifier.
+      2. It's not saved in memory, but stored inside variable
+   7. Recursion
       1. Recursion is a process in which a function calls itself as a subroutine. This allows the function to be repeated several times, since it calls itself during its execution. Functions that incorporate recursion are called recursive functions.
-      2. Exit instuction - required to end program
-      3.
-   7. Functional programming - basics
+      2. Exit instruction - required to end program
+      3. Example of recursion function - counting factorial of 5 (5!)
+      4. _Chapter III of Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People_
+   8. Functional programming - basics
       1. Functional programming is a programming paradigm where programs are constructed by applying and composing functions.
       2. In PHP Functional programming is not very popular concept, however using callables in frameworks like Laravel is quite often. Functional programming is more popular in JavaScript / TypeScript, especially in React
       3. You can learn more about it from this video in polish [https://www.youtube.com/watch?v=kpsS47lNpmI](https://www.youtube.com/watch?v=kpsS47lNpmI) or from [https://www.youtube.com/watch?v=0if71HOyVjY](https://www.youtube.com/watch?v=0if71HOyVjY) but since it's introduction to programming, more informations you can find on programming paradigms lessons.
-   8. Anonymous function / arrow functions [https://en.wikipedia.org/wiki/Anonymous\_function](https://en.wikipedia.org/wiki/Anonymous\_function)
-      1. Anonymous function (function literal, lambda abstraction, lambda function, lambda expression or block) is a function definition that is not bound to an identifier.
-      2. It's not saved in memory, but stored inside variable
    9. Code examples in PHP
-      1.
-5. Objects
+      1. Defining a function
+      2. Defining a function in namespace
+      3. Running function within other function
+      4. Refactoring big non SOLID function to smaller once
+      5. Refactoring function with many arguments to function with less agruments
+      6. Refactoring function that returns string / number / boolean to strict type
+      7. Arrow function
+      8. Recursion function that calculates factorial
+      9. Function as a parameter of other function
+5. Object-oriented programming
    1. Type Operators[ ](https://www.php.net/manual/en/language.operators.type.php#language.operators.type)[https://www.php.net/manual/en/language.operators.type.php](https://www.php.net/manual/en/language.operators.type.php)
-   2. Exeptions
-6. What is an algorithm
+   2. Exceptions Obsługa sytuacji wyjątkowych: sytuacje wyjątkowe, rzucanie wyjątków, łapanie wyjątków, informowanie o rzucanych wyjątkach, hierarchie klas do przechowywania informacji o wyjątkach, sprzątanie stosu, pozyskiwanie zasobów poprzez inicjalizację.&#x20;
+      1. Złe praktyki związane ze sterowaniem poprzez wyjątki
+   3. Różnice Interfejs / Klasa; Klasa abstrakcyjna / finalna
+   4. Podstawy programowania obiektowo orientowanego: dziedziczenie, dziedziczenie wielopokoleniowe, hierarchia klas, dostęp do składników w kontekście dziedziczenia, konstrukcja obiektów w kontekście dziedziczenia, dziedziczenie wielokrotne.&#x20;
+   5. Klasy abstrakcyjne: metody abstrakcyjne, cechy klasy abstrakcyjnej, poŜytki z klasy abstrakcyjnej, interfejsy, siła klas abstrakcyjnych, istota programowania obiektowo orientowanego.&#x20;
+   6. Dobre praktyki programowania
+      * KISS
+      * DRY
+      * Czysty kod
+   7. Konstruktory / destruktory
+   8. Metody magiczne php
+   9. Wprowadzenie do wzorców projektowych
+6. SOLID principles
+   1. S
+   2. O
+   3. L
+   4. I
+   5. D
+7. GRASP
+   1. GRASP principles
+8. What is an algorithm
    1. What is an algorithm (definition)
       1. A set of mathematical instructions or rules that, especially if given to a computer, will help to calculate an answer to a problem. _Cambridge Advanced Learner's Dictionary & Thesaurus © Cambridge University Press_&#x20;
       2. In mathematics and computer science, an algorithm is a finite sequence of well-defined instructions, typically used to solve a class of specific problems or to perform a computation. _Wikipedia_
@@ -171,130 +208,32 @@ description: Wykład 15h
       4. Pseudocode
       5. Big O notation (in example of binaty search O(logn))
       6. Program in javascript
-
-
-
-
-
-
-
-
-
-* Jak debugować kod
-  * proste narzędzia do debugowania
-  * zasada gumowej kaczuszki
-  * narzędzia do debugowania (zależne od języka, pokazać w przeglądarce)
-  * pisanie testów jako rozwiązanie umożliwiające debugowanie
-* Struktuy danych
-  * Czym są
-  * Jakie są rodzaje
-  * Przykłady
-* Czym jest rekurencja (recuresion)
-* Czym jest pseudokod
-* Przykłady aplikacji
-* System kontroli wersji
-* Algorytmy
-* Komputery
-  * Klient
-  * Server
-  * Serverless (w tym AWS Lambda)
-* Budowa programu w różnych językach
-  * Java
-  * PHP
-  * Cobol
-  * JavaScipt / TypeScript
-* Funkcje standardowe i programowanie wyrażeń
-* Instrukcje złożone
-* Zmienne złożone
-* Podprogramy
-* Typy zmiennych
-  * Typy prymitywne
-  * Typy złożone
-  * Różnice Interfejs / Klasa; Klasa abstrakcyjna / finalna
-* SOLID
-* GRASP
-* KISS
-* DRY
-* Czysty kod
-
-
-
-
-
-## Lista tematów w innych
-
-* Wiadomości wstępne
-* Algorytmy
-* Komputery
-* Języki algorytmiczne
-* Budowa programu na przykładzie języka C++
-* Funkcje standardowe i programowanie wyrażeń.
-* Instrukcje złożone.
-* Zmienne złożone.
-* Podprogramy
-
-
-
-* Pojęcie algorytmu
-* Języki formalne
-* Reprezentacja liczb w komputerze
-* Zmienne i wyrażenia
-* Instrukcje while-programów
-* Asercje w programach i niezmienniki pętli
-* Typy danych
-* Pliki
-* Funkcje i procedury
-* Miary złożoności algorytmów
-* Rekurencja
-
-
-
-* Wprowadzenie - podstawowe pojęcia: algorytm i jego struktura;
-* Schemat blokowy; zestaw instrukcji; program.
-* Definicje pojęć: translator, kompilator, interpreter, moduł programowy. Programowanie algorytmiczne, strukturalne, obiektowe. Język programowania C: składnia i struktura języka .
-* Typy danych, operatory, wyrażenia, instrukcje
-* Struktura programu. Instrukcje sterujące przepływem danych w programie: if, if-else, switch. Zagnieżdżanie. Instrukcje pętlowe while, do-while, for. Pętle zagnieżdżone. Instrukcje przerwań break i continue.
-* Funkcje. Zmienne lokalne i globalne. Deklaracja funkcji. Zwracanie rezultatu przez funkcję. Przekazywanie zmiennych do funkcji.
-* Podstawowe biblioteki i narzędzia (wejście i wyjście programu, pliki).
-* Łańcuchy. Tablice jedno i wielowymiarowe. Wskaźniki. Arytmetyka wskaźników.
-* Pliki. Deklarowanie, otwieranie i zamykanie. Dodawanie danych do pliku.
-
-
-
-* Wprowadzenie: historia rozwoju języków i technik programowania,&#x20;
-* języki wysokiego poziomu,&#x20;
-* translacja, kompilatory i interpretery,&#x20;
-* przegląd podstawowych koncepcji języków programowania,&#x20;
-* elementy programowania strukturalnego w języku C i językach pochodnych: C++, Java, C#.
-* Programowanie niskopoziomowe: obiekty instrukcje i podprogramy na poziomie procesora, asembler, obsługa przerwań i stosu, kompilacja modułowa i linkowanie.&#x20;
-* Programowanie proceduralne: wyraŜenia, notacje funkcyjne, ewaluacja wyraŜenia, programowanie poprzez stos, podprogramy, funkcje i procedury.&#x20;
-* Programowanie strukturalne: zasady programowania strukturalnego, instrukcje selekcji, instrukcje pętli.&#x20;
-* Podstawy programowania funkcjonalnego: rekursja, zasady programowania funkcjonalnego, wyraŜenia listowe i notacja listowa, funkcje anonimowe.&#x20;
-* Typy danych: typy podstawowe i definiowane, typy pochodne i typy złoŜone, kontrola typów, polimorfizm, typy wartościowe i referencyjne.&#x20;
-* Operatory: operatory matematyczne, operatory konwersji, kolejność wykonywania operatorów i porządek wartościowania.&#x20;
-* Zmienne i tablice: zmienna jako nazwany obiekt, deklarowanie zmiennej, zakres waŜności nazwy, inicjalizacja zmiennych, czas Ŝycia obiektu, obiekty stałe, typ tablicowy, tablice wielowymiarowe i tablice tablic, tablice nieregularne.&#x20;
-* Odnośniki: referencje, wskaźniki, arytmetyka wskaźników, typy referencyjne, zastosowania, sterta.&#x20;
-* Funkcje: przekazywanie argumentów, obiekty chwilowe, zwracanie wartości, przeładowanie nazw funkcji.&#x20;
-* Zmienne, funkcje i odnośniki w kontekście kompilacji.&#x20;
-* Programowanie bazujące na obiektach: złoŜoność strukturalna, abstrakcja danych, klasa i obiekt, enkapsulacja, projekt, interfejs i implementacja.&#x20;
-* Konstruktory i destruktory, konstruktory kopiujące, jawne i niejawne wywołanie konstruktora.&#x20;
-* Zarządzanie nazwami: klasy zagnieŜdŜone i klasy wewnętrzne, klasy lokalne, przestrzenie nazw i pakiety.&#x20;
-* Przeładowanie operatorów: operator jako funkcja, przeładowanie operatorów jako funkcji globalnych oraz metod, zastosowania przeładowania operatorów&#x20;
-* Konwersje: konwersje standardowe, konwertery i funkcje konwertujące, konwersje jawne i niejawne, niejednoznaczność konwersji.&#x20;
-* Podstawy programowania obiektowo orientowanego: dziedziczenie, dziedziczenie wielopokoleniowe, hierarchia klas, dostęp do składników w kontekście dziedziczenia, konstrukcja obiektów w kontekście dziedziczenia, dziedziczenie wielokrotne.&#x20;
-* Funkcje wirtualne: mechanizm wirtualności, poŜytki i koszty wirtualności, wczesne i późne wiązanie, wirtualna konstrukcja i destrukcja obiektów, polimorfizm dynamiczny w kontekście funkcji wirtualnych.&#x20;
-* Klasy abstrakcyjne: metody abstrakcyjne, cechy klasy abstrakcyjnej, poŜytki z klasy abstrakcyjnej, interfejsy, siła klas abstrakcyjnych, istota programowania obiektowo orientowanego.&#x20;
-* Identyfikacja typów w trakcie wykonania (RTTI): bezwzględne i relatywne RTTI, niebezpieczeństwa związane z RTTI, zastosowania RTTI, wielometody.&#x20;
-* Obsługa sytuacji wyjątkowych: sytuacje wyjątkowe, rzucanie wyjątków, łapanie wyjątków, informowanie o rzucanych wyjątkach, hierarchie klas do przechowywania informacji o wyjątkach, sprzątanie stosu, pozyskiwanie zasobów poprzez inicjalizację.&#x20;
-* Wprowadzenie do programowania generycznego: szablony funkcji i klas, klasy i metody generyczne, polimorfizm statyczny.&#x20;
-* Pojemniki: pojemniki sekwencyjne i asocjacyjne, typy pojemników, iteratory.&#x20;
-* Programowanie funkcyjne: funkcjonały, currying, klasy i obiekty funkcyjne, zalety i wady programowania funkcjonalnego.&#x20;
-* Programowanie orientowane zdarzeniami: pętla główna, zdarzenia, obsługa zdarzeń.&#x20;
-* Programowanie wielowątkowe: wątki, współdzielenie zasobów, synchronizacja, komunikacja pomiędzy wątkami, klincz.&#x20;
-* Graficzny interfejs uŜytkownika: komponenty i kontenery, okna dialogowe, menedŜery układu okien, systemy menu, komponenty tekstowe i graficzne.&#x20;
-*   Operacje wejścia- wyjścia: strumienie, operacje na strumieniach, manipulatory,
-
-    formatowane i nieformatowane operacja wejścia-wyjścia, strumienie plikowe.&#x20;
-* Języki skryptowe.&#x20;
-* WyraŜenia regularne: wzorce, operator dopasowania, operator podmiany, podwzorce. Języki do przechowywania i przetwarzania dokumentów: znaczniki, atrybuty, poprawność składni, formatowanie, formularze Programowanie w środowisku przeglądarki: języki skryptowe w środowisku przeglądarki, Document Object Model, zdarzenia, aplety.
+   3. Sortowanie
+   4. Listy (LIFO, FIFO)
+   5. Inne
+   6. Schemat blokowy; zestaw instrukcji; program.
+9. Bulid-in functions in PHP
+   1. Podstawowe biblioteki i narzędzia wejście i wyjście programu.
+   2. Include / required
+   3. Pliki. Deklarowanie, otwieranie i zamykanie. Dodawanie danych do pliku.
+10. Debugging your code
+    1. Jak debugować kod
+       * proste narzędzia do debugowania
+       * zasada gumowej kaczuszki
+       * narzędzia do debugowania (zależne od języka, pokazać w przeglądarce)
+       * pisanie testów jako rozwiązanie umożliwiające debugowanie
+11. PHP Frameworks
+    1. Laravel
+    2. Symfony
+12. Data structures
+    1. struktury danych
+       * Czym są
+       * Jakie są rodzaje
+       * Przykłady
+13. Version control system
+    1. Definition
+    2. GIT
+    3. praca na gicie
+14. Test driven development
+15. Wyrażenie regularne
 
