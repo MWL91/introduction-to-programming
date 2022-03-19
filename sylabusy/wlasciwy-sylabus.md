@@ -1,7 +1,58 @@
 # Właściwy sylabus
 
 * Wiadomości wstępne
+  * Czym jest programowanie
+    * Dlaczego warto uczyć się programowania: [https://www.youtube.com/watch?v=Dv7gLpW91DM](https://www.youtube.com/watch?v=Dv7gLpW91DM)
+  * Jak piszemy kod
+  * Języki programowania
+  * Jak pobieramy informacje z komputera
+  * Co komputer może zrobić
+    * Wykonywanie kodu na maszynie lokalnej
+    * Wykonywanie kodu w kontenerach (docker, vagrant)
+    * Wykonywanie kodu na serwerze
+    * Wykonywanie kodu na lambdzie i techologiach serverless
 * Języki programowania i paradygmaty programowania
+  * Języki niskiego poziomu
+  * Języki wysokiego poziomu
+  * Różnice i podobieństwa w językach programowania
+* Czym jest zmienna
+  * Do czego służy zmienna
+  * Typy zmiennych
+  * Zasięg zmiennych
+  * Jak zarządzać zmienną
+* Czym jest stała
+  * Czym różni się stała od zmiennej
+  * Gdzie najlepiej wykorzystać stałą
+  * Unikanie magic numbers
+* Czym jest instrukcja warunkowa
+  * If
+  * Switch
+  * Match
+* Czym jest tablica
+* Czym są pętle
+  * do ... while
+  * while
+  * for
+  * foreach
+* Czym są błędy i wyjątki
+  * błąd
+  * wyjątek
+* Jak debugować kod
+  * proste narzędzia do debugowania
+  * zasada gumowej kaczuszki
+  * narzędzia do debugowania (zależne od języka, pokazać w przeglądarce)
+  * pisanie testów jako rozwiązanie umożliwiające debugowanie
+* Czym są funkcje
+  * jak działają funkcje
+  * jak importować funkcje
+  * jak tworzyć własne funkcje
+* Struktuy danych
+  * Czym są
+  * Jakie są rodzaje
+  * Przykłady
+* Czym jest rekurencja (recuresion)
+* Czym jest pseudokod
+* Przykłady aplikacji
 * System kontroli wersji
 * Algorytmy
 * Komputery
