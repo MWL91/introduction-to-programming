@@ -1,6 +1,6 @@
 # Literatura
 
-
+## Books
 
 {% embed url="https://helion.pl/ksiazki/pragmatyczny-programista-od-czeladnika-do-mistrza-wydanie-ii-david-thomas-andrew-hunt,pragp2.htm#format/d" %}
 
@@ -17,3 +17,11 @@
 {% embed url="https://helion.pl/ksiazki/algorytmy-ilustrowany-przewodnik-aditya-bhargava,algoip.htm#format/e" %}
 
 {% embed url="https://www.amazon.pl/Grokking-Algorithms-Illustrated-Programmers-Curious/dp/1617292230" %}
+
+## Documentations
+
+{% embed url="https://www.php.net" %}
+
+{% embed url="https://developer.mozilla.org/en-US/docs/Web/JavaScript" %}
+
+{% embed url="https://www.typescriptlang.org" %}
