@@ -34,18 +34,18 @@ description: Wykład 15h
       3. PHP
       4. C#
       5. C++
-2. What is variable - Introduction to programming in PHP
+2. What is a variable. Introduction to variables based on PHP
    1. Definition of variable
-      1. A variable is a symbolic name for (or reference to) information. The variable's name represents what information the variable contains. They are called variables because the represented information can change but the operations on the variable remain the same. In general, a program should be written with "Symbolic" notation, such that a statement is always true symbolically. For example if I want to know the average of two grades, We can write "average = (grade\_1 + grade\_2) / 2.0;" and the variable average will then contain the average grade regardless of the scores stored in the variables, grade\_1 and grade\_2. _Utah University_ [_https://www.cs.utah.edu/\~germain/PPS/Topics/index.html_](https://www.cs.utah.edu/\~germain/PPS/Topics/index.html)__
+      1. A variable is a symbolic name for (or reference to) information. The variable's name represents what information the variable contains. They are called variables because the represented information can change but the operations on the variable remain the same. In general, a program should be written with "Symbolic" notation, such that a statement is always true symbolically. For example, if I want to know the average of two grades, We can write "average = (grade\_1 + grade\_2) / 2.0;" and the variable average will then contain the average grade regardless of the scores stored in the variables, grade\_1 and grade\_2. _Utah University_ [_https://www.cs.utah.edu/\~germain/PPS/Topics/index.html_](https://www.cs.utah.edu/\~germain/PPS/Topics/index.html)__
       2. In computer programming, a variable is an abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value; or in simpler terms, a variable is a container for a particular set of bits or type of data (like integer, float, String etc...). _Wikipedia_
    2. Variable types in PHP language
-      1. What is primitive variable and what is non primitive variable
-      2. Variable types in in PHP: [https://www.php.net/manual/en/language.types.intro.php](https://www.php.net/manual/en/language.types.intro.php)
+      1. What is a primitive variable and what is nonprimitive variable
+      2. Variable types in PHP: [https://www.php.net/manual/en/language.types.intro.php](https://www.php.net/manual/en/language.types.intro.php)
          1. Scalar types:
             1. Boolean - true / false
             2. Integer - An int is a number of the set ℤ = {..., -2, -1, 0, 1, 2, ...}.
             3. Float - float number
-            4. String - A string is series of characters, where a character is the same as a byte.
+            4. String - A string is a series of characters, where a character is the same as a byte.
          2. Compound types
             1. array - An array in PHP is actually an ordered map. A map is a type that associates _values_ to _keys_. This type is optimized for several different uses; it can be treated as an array, list (vector), hash table (an implementation of a map), dictionary, collection, stack, queue, and probably more. As array values can be other arrays, trees and multidimensional arrays are also possible.
             2. object - it's an instance of a class including anonymus class like in javascript `{...}`
@@ -67,9 +67,9 @@ description: Wykład 15h
          1. A constant is a value that should not be altered by the program during normal execution, i.e., the value is constant. _Wikipedia_
          2. A constant is an identifier (name) for a simple value. As the name suggests, that value cannot change during the execution of the script (except for magic constants, which aren't actually constants). _php.net_
       2. Where to use constants
-         1. Avoiding magic numbers for example day represented in seconds.
+         1. Avoid magic numbers for example day represented in seconds.
       3. Enumerated values
-         1. Enumerated values are not the same what constants, but often takes the same job in code.&#x20;
+         1. Enumerated values are not the same as constants, but often take the same job in code.&#x20;
          2. Enumerations, or "Enums" allow a developer to define a custom type that is limited to one of a discrete number of possible values. That can be especially helpful when defining a domain model, as it enables "making invalid states unrepresentable."
    5. Variables, constants and enums in php - code examples
       1. Variable types
@@ -79,7 +79,45 @@ description: Wykład 15h
       5. Defining global constants
       6. Defining class constants
       7. Enums in php
-3. What is an algorithm
+3. Expressions, control structures and operators. How to work with them, based on PHP
+   1. Definition of Expression&#x20;
+      1. In computer science, an expression is a syntactic entity in a programming language that may be evaluated to determine its value. _Wikipedia_
+      2. Expressions are the most important building blocks of PHP. In PHP, almost anything you write is an expression. The simplest yet most accurate way to define an expression is "anything that has a value". _php.net_
+   2. Examples of assigning Expressions
+      1. [https://www.php.net/manual/en/language.expressions.php](https://www.php.net/manual/en/language.expressions.php)
+   3. Definition of control structure
+      1. A structure is used to affect the flow of a program.
+      2. ![](../.gitbook/assets/image.png)
+      3. Each program has it's own flow. From start to end, algorithm process tasks, are required to achieve results. For controlling those flow, we are using control strucutres, like:
+         1. if
+         2. else
+         3. elseif/else if&#x20;
+         4. while&#x20;
+         5. do-while&#x20;
+         6. for&#x20;
+         7. foreach&#x20;
+         8. break&#x20;
+         9. continue&#x20;
+         10. switch&#x20;
+         11. match&#x20;
+         12. declare&#x20;
+         13. return
+         14. goto
+   4. Definition of Operator
+      1. An operator is something that takes one or more values (or expressions, in programming jargon) and yields another value (so that the construction itself becomes an expression). _php.net_
+   5. Operators in PHP
+      1. Operator Precedence [https://www.php.net/manual/en/language.operators.precedence.php](https://www.php.net/manual/en/language.operators.precedence.php)
+      2. Arithmetic Operators [https://www.php.net/manual/en/language.operators.arithmetic.php](https://www.php.net/manual/en/language.operators.arithmetic.php)
+      3. Assignment Operators [https://www.php.net/manual/en/language.operators.assignment.php](https://www.php.net/manual/en/language.operators.assignment.php)
+      4. Comparison Operators [https://www.php.net/manual/en/language.operators.comparison.php](https://www.php.net/manual/en/language.operators.comparison.php)
+      5. Incrementing/Decrementing Operaton [https://www.php.net/manual/en/language.operators.increment.php](https://www.php.net/manual/en/language.operators.increment.php)
+      6. Logical Operators [https://www.php.net/manual/en/language.operators.logical.php](https://www.php.net/manual/en/language.operators.logical.php)
+      7. String Operators [https://www.php.net/manual/en/language.operators.string.php](https://www.php.net/manual/en/language.operators.string.php)
+4. Arrays
+   1. Array Operators [https://www.php.net/manual/en/language.operators.array.php](https://www.php.net/manual/en/language.operators.array.php)
+5. Objects
+   1. Type Operators[ ](https://www.php.net/manual/en/language.operators.type.php#language.operators.type)[https://www.php.net/manual/en/language.operators.type.php](https://www.php.net/manual/en/language.operators.type.php)
+6. What is an algorithm
    1. What is an algorithm (definition)
       1. A set of mathematical instructions or rules that, especially if given to a computer, will help to calculate an answer to a problem. _Cambridge Advanced Learner's Dictionary & Thesaurus © Cambridge University Press_&#x20;
       2. In mathematics and computer science, an algorithm is a finite sequence of well-defined instructions, typically used to solve a class of specific problems or to perform a computation. _Wikipedia_
@@ -93,15 +131,10 @@ description: Wykład 15h
 
 
 
-* Czym jest zmienna
-  * Do czego służy zmienna
-  * Typy zmiennych
-  * Zasięg zmiennych
-  * Jak zarządzać zmienną
-* Czym jest stała
-  * Czym różni się stała od zmiennej
-  * Gdzie najlepiej wykorzystać stałą
-  * Unikanie magic numbers
+
+
+
+
 * Czym jest instrukcja warunkowa
   * If
   * Switch
