@@ -2,7 +2,7 @@
 description: Wykład 15h
 ---
 
-# Właściwy sylabus
+# Table of Contents
 
 1. Introduction to programming - basic informations
    1. What is programming (definition)
@@ -71,7 +71,15 @@ description: Wykład 15h
       3. Enumerated values
          1. Enumerated values are not the same as constants, but often take the same job in code.&#x20;
          2. Enumerations, or "Enums" allow a developer to define a custom type that is limited to one of a discrete number of possible values. That can be especially helpful when defining a domain model, as it enables "making invalid states unrepresentable."
-   5. Variables, constants and enums in php - code examples
+   5. Arrays
+      1. Array definition
+         1. An array is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index or key.
+         2. An array in PHP is actually an ordered map. A map is a type that associates _values_ to _keys_. This type is optimized for several different uses; it can be treated as an array, list (vector), hash table (an implementation of a map), dictionary, collection, stack, queue, and probably more. As array values can be other arrays, trees and multidimensional arrays are also possible.
+      2. Arrays in php
+         1. Declare an array
+         2. Declare associative array
+         3. Array Operators [https://www.php.net/manual/en/language.operators.array.php](https://www.php.net/manual/en/language.operators.array.php)
+   6. Variables, constants and enums in php - code examples
       1. Variable types
       2. Variable scope
       3. Variable casting
@@ -87,7 +95,7 @@ description: Wykład 15h
       1. [https://www.php.net/manual/en/language.expressions.php](https://www.php.net/manual/en/language.expressions.php)
    3. Definition of control structure
       1. A structure is used to affect the flow of a program.
-      2. ![](../.gitbook/assets/image.png)
+      2. ![](.gitbook/assets/image.png)
       3. Each program has it's own flow. From start to end, algorithm process tasks, are required to achieve results. For controlling those flow, we are using control strucutres, like:
          1. if
          2. else
@@ -112,11 +120,14 @@ description: Wykład 15h
       4. Comparison Operators [https://www.php.net/manual/en/language.operators.comparison.php](https://www.php.net/manual/en/language.operators.comparison.php)
       5. Incrementing/Decrementing Operaton [https://www.php.net/manual/en/language.operators.increment.php](https://www.php.net/manual/en/language.operators.increment.php)
       6. Logical Operators [https://www.php.net/manual/en/language.operators.logical.php](https://www.php.net/manual/en/language.operators.logical.php)
-      7. String Operators [https://www.php.net/manual/en/language.operators.string.php](https://www.php.net/manual/en/language.operators.string.php)
-4. Arrays
-   1. Array Operators [https://www.php.net/manual/en/language.operators.array.php](https://www.php.net/manual/en/language.operators.array.php)
+      7. String Operators [https://www.php.net/manual/en/language.operators.string.ph](https://www.php.net/manual/en/language.operators.string.php)
+4. Functions
+   1. jak działają funkcje
+   2. jak importować funkcje, przestrzenie nazw, composer
+   3. jak tworzyć własne funkcje
 5. Objects
    1. Type Operators[ ](https://www.php.net/manual/en/language.operators.type.php#language.operators.type)[https://www.php.net/manual/en/language.operators.type.php](https://www.php.net/manual/en/language.operators.type.php)
+   2. Exeptions
 6. What is an algorithm
    1. What is an algorithm (definition)
       1. A set of mathematical instructions or rules that, especially if given to a computer, will help to calculate an answer to a problem. _Cambridge Advanced Learner's Dictionary & Thesaurus © Cambridge University Press_&#x20;
@@ -135,28 +146,13 @@ description: Wykład 15h
 
 
 
-* Czym jest instrukcja warunkowa
-  * If
-  * Switch
-  * Match
-* Czym jest tablica
-* Czym są pętle
-  * do ... while
-  * while
-  * for
-  * foreach
-* Czym są błędy i wyjątki
-  * błąd
-  * wyjątek
+
+
 * Jak debugować kod
   * proste narzędzia do debugowania
   * zasada gumowej kaczuszki
   * narzędzia do debugowania (zależne od języka, pokazać w przeglądarce)
   * pisanie testów jako rozwiązanie umożliwiające debugowanie
-* Czym są funkcje
-  * jak działają funkcje
-  * jak importować funkcje
-  * jak tworzyć własne funkcje
 * Struktuy danych
   * Czym są
   * Jakie są rodzaje
