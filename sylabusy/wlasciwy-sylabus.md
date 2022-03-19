@@ -38,7 +38,7 @@ description: Wykład 15h
    1. Definition of variable
       1. A variable is a symbolic name for (or reference to) information. The variable's name represents what information the variable contains. They are called variables because the represented information can change but the operations on the variable remain the same. In general, a program should be written with "Symbolic" notation, such that a statement is always true symbolically. For example if I want to know the average of two grades, We can write "average = (grade\_1 + grade\_2) / 2.0;" and the variable average will then contain the average grade regardless of the scores stored in the variables, grade\_1 and grade\_2. _Utah University_ [_https://www.cs.utah.edu/\~germain/PPS/Topics/index.html_](https://www.cs.utah.edu/\~germain/PPS/Topics/index.html)__
       2. In computer programming, a variable is an abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value; or in simpler terms, a variable is a container for a particular set of bits or type of data (like integer, float, String etc...). _Wikipedia_
-   2. Variable types in programming
+   2. Variable types in PHP language
       1. What is primitive variable and what is non primitive variable
       2. Variable types in in PHP: [https://www.php.net/manual/en/language.types.intro.php](https://www.php.net/manual/en/language.types.intro.php)
          1. Scalar types:
@@ -54,8 +54,31 @@ description: Wykład 15h
          3. Special types
             1. null - represents a variable with no value
             2. Resource - A resource is a special variable, holding a reference to an external resource.
-      3. Note: Variable types may be different in many languages
-      4. Variable scope
+      3. Other types on variables in different languages
+      4. Casting variables
+   3. Variable scope
+      1. What is variable scope [https://www.php.net/manual/en/language.variables.scope.php](https://www.php.net/manual/en/language.variables.scope.php)
+         1. The scope of a variable is the context within which it is defined. For the most part all PHP variables only have a single scope. This single scope spans included and required files as well.
+      2. Global / Static variables in php
+      3. Variable scope in javascript: [https://www.w3schools.com/js/js\_scope.asp](https://www.w3schools.com/js/js\_scope.asp)
+         1. var / let / const
+   4. Constants
+      1. Definition of constant
+         1. A constant is a value that should not be altered by the program during normal execution, i.e., the value is constant. _Wikipedia_
+         2. A constant is an identifier (name) for a simple value. As the name suggests, that value cannot change during the execution of the script (except for magic constants, which aren't actually constants). _php.net_
+      2. Where to use constants
+         1. Avoiding magic numbers for example day represented in seconds.
+      3. Enumerated values
+         1. Enumerated values are not the same what constants, but often takes the same job in code.&#x20;
+         2. Enumerations, or "Enums" allow a developer to define a custom type that is limited to one of a discrete number of possible values. That can be especially helpful when defining a domain model, as it enables "making invalid states unrepresentable."
+   5. Variables, constants and enums in php - code examples
+      1. Variable types
+      2. Variable scope
+      3. Variable casting
+      4. Predefined Variables in PHP
+      5. Defining global constants
+      6. Defining class constants
+      7. Enums in php
 3. What is an algorithm
    1. What is an algorithm (definition)
       1. A set of mathematical instructions or rules that, especially if given to a computer, will help to calculate an answer to a problem. _Cambridge Advanced Learner's Dictionary & Thesaurus © Cambridge University Press_&#x20;
