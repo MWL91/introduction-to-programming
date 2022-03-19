@@ -34,29 +34,28 @@ description: Wykład 15h
       3. PHP
       4. C#
       5. C++
-2. Introduction to programming in PHP
-   1. What is variable
-      1. Definition of variable
-         1. A variable is a symbolic name for (or reference to) information. The variable's name represents what information the variable contains. They are called variables because the represented information can change but the operations on the variable remain the same. In general, a program should be written with "Symbolic" notation, such that a statement is always true symbolically. For example if I want to know the average of two grades, We can write "average = (grade\_1 + grade\_2) / 2.0;" and the variable average will then contain the average grade regardless of the scores stored in the variables, grade\_1 and grade\_2. _Utah University_ [_https://www.cs.utah.edu/\~germain/PPS/Topics/index.html_](https://www.cs.utah.edu/\~germain/PPS/Topics/index.html)__
-         2. In computer programming, a variable is an abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value; or in simpler terms, a variable is a container for a particular set of bits or type of data (like integer, float, String etc...). _Wikipedia_
-      2. Variable types in programming
-         1. What is primitive variable and what is non primitive variable
-         2. Variable types in in PHP: [https://www.php.net/manual/en/language.types.intro.php](https://www.php.net/manual/en/language.types.intro.php)
-            1. Scalar types:
-               1. Boolean - true / false
-               2. Integer - An int is a number of the set ℤ = {..., -2, -1, 0, 1, 2, ...}.
-               3. Float - float number
-               4. String - A string is series of characters, where a character is the same as a byte.
-            2. Compound types
-               1. array - An array in PHP is actually an ordered map. A map is a type that associates _values_ to _keys_. This type is optimized for several different uses; it can be treated as an array, list (vector), hash table (an implementation of a map), dictionary, collection, stack, queue, and probably more. As array values can be other arrays, trees and multidimensional arrays are also possible.
-               2. object - it's an instance of a class including anonymus class like in javascript `{...}`
-               3. callable - callable function assign to the variable (reffered to functional programming)
-               4. iterable - Iterable is a pseudo-type introduced in PHP 7.1. It accepts any array or object implementing the Traversable interface. Both of these types are iterable using foreach and can be used with yield from within a generator.
-            3. Special types
-               1. null - represents a variable with no value
-               2. Resource - A resource is a special variable, holding a reference to an external resource.
-         3. Note: Variable types may be different in many languages
-         4. Variable scope
+2. What is variable - Introduction to programming in PHP
+   1. Definition of variable
+      1. A variable is a symbolic name for (or reference to) information. The variable's name represents what information the variable contains. They are called variables because the represented information can change but the operations on the variable remain the same. In general, a program should be written with "Symbolic" notation, such that a statement is always true symbolically. For example if I want to know the average of two grades, We can write "average = (grade\_1 + grade\_2) / 2.0;" and the variable average will then contain the average grade regardless of the scores stored in the variables, grade\_1 and grade\_2. _Utah University_ [_https://www.cs.utah.edu/\~germain/PPS/Topics/index.html_](https://www.cs.utah.edu/\~germain/PPS/Topics/index.html)__
+      2. In computer programming, a variable is an abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value; or in simpler terms, a variable is a container for a particular set of bits or type of data (like integer, float, String etc...). _Wikipedia_
+   2. Variable types in programming
+      1. What is primitive variable and what is non primitive variable
+      2. Variable types in in PHP: [https://www.php.net/manual/en/language.types.intro.php](https://www.php.net/manual/en/language.types.intro.php)
+         1. Scalar types:
+            1. Boolean - true / false
+            2. Integer - An int is a number of the set ℤ = {..., -2, -1, 0, 1, 2, ...}.
+            3. Float - float number
+            4. String - A string is series of characters, where a character is the same as a byte.
+         2. Compound types
+            1. array - An array in PHP is actually an ordered map. A map is a type that associates _values_ to _keys_. This type is optimized for several different uses; it can be treated as an array, list (vector), hash table (an implementation of a map), dictionary, collection, stack, queue, and probably more. As array values can be other arrays, trees and multidimensional arrays are also possible.
+            2. object - it's an instance of a class including anonymus class like in javascript `{...}`
+            3. callable - callable function assign to the variable (reffered to functional programming)
+            4. iterable - Iterable is a pseudo-type introduced in PHP 7.1. It accepts any array or object implementing the Traversable interface. Both of these types are iterable using foreach and can be used with yield from within a generator.
+         3. Special types
+            1. null - represents a variable with no value
+            2. Resource - A resource is a special variable, holding a reference to an external resource.
+      3. Note: Variable types may be different in many languages
+      4. Variable scope
 3. What is an algorithm
    1. What is an algorithm (definition)
       1. A set of mathematical instructions or rules that, especially if given to a computer, will help to calculate an answer to a problem. _Cambridge Advanced Learner's Dictionary & Thesaurus © Cambridge University Press_&#x20;
