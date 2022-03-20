@@ -165,6 +165,14 @@ description: Wykład 15h
       1. Functional programming is a programming paradigm where programs are constructed by applying and composing functions.
       2. In PHP Functional programming is not very popular concept, however using callables in frameworks like Laravel is quite often. Functional programming is more popular in JavaScript / TypeScript, especially in React
       3. You can learn more about it from this video in polish [https://www.youtube.com/watch?v=kpsS47lNpmI](https://www.youtube.com/watch?v=kpsS47lNpmI) or from [https://www.youtube.com/watch?v=0if71HOyVjY](https://www.youtube.com/watch?v=0if71HOyVjY) but since it's introduction to programming, more informations you can find on programming paradigms lessons.
+      4. Mosh: [https://codewithmosh.com/courses/ultimate-redux/lectures/14780291](https://codewithmosh.com/courses/ultimate-redux/lectures/14780291)
+         1. Higher order functions
+            1. [https://codewithmosh.com/courses/ultimate-redux/lectures/14780294](https://codewithmosh.com/courses/ultimate-redux/lectures/14780294)
+         2. Function compositions and piping
+            1. [https://codewithmosh.com/courses/ultimate-redux/lectures/14780292](https://codewithmosh.com/courses/ultimate-redux/lectures/14780292)
+         3. Currying
+            1. [https://codewithmosh.com/courses/ultimate-redux/lectures/14780300](https://codewithmosh.com/courses/ultimate-redux/lectures/14780300)
+         4. itd...
    9. Code examples in PHP
       1. Defining a function
       2. Defining a function in namespace
