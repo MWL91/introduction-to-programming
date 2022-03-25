@@ -114,7 +114,7 @@ description: Wykład 15h
       1. [https://www.php.net/manual/en/language.expressions.php](https://www.php.net/manual/en/language.expressions.php)
    3. Definition of control structure
       1. A structure is used to affect the flow of a program.
-      2. ![](.gitbook/assets/image.png)
+      2. ![](../.gitbook/assets/image.png)
       3. Each program has it's own flow. From start to end, algorithm process tasks, are required to achieve results. For controlling those flow, we are using control strucutres, like:
          1. if
          2. else
