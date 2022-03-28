@@ -36,6 +36,7 @@ description: Wykład 15h
       1. Pseudocode is a plain language description of the steps in an algorithm or another system.
       2. Writing example program in pseudocode: calculating shopping cart
       3. Special variation of pseudocode: Gherkin Language and Domain Driven Development
+      4. [https://mermaid-js.github.io/mermaid/#/](https://mermaid-js.github.io/mermaid/#/)
    9. Programming languages
       1. Low level programming and assembly language example
       2. High level programming and C# examples
