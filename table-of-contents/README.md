@@ -237,8 +237,7 @@ description: Wykład 15h
    3. Pliki. Deklarowanie, otwieranie i zamykanie. Dodawanie danych do pliku.
    4. Composer
    5. Laravel
-   6. PHP Frameworks
-      1. Laravel
+      1. [https://www.youtube.com/watch?v=92UkADWwH7s](https://www.youtube.com/watch?v=92UkADWwH7s)
 7. Test driven development
 8. Wyrażenie regularne
 
